@@ -4,7 +4,7 @@ Set apache config
 
 ExtendedStatus On
 
-<Location /server-status>
+"<Location /server-status>"
     SetHandler server-status
     Require local
 </Location>
